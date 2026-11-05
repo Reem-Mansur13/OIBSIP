@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reem | Developer Portfolio</title>
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Dynamic Glow Effects -->
+    <div class="glow-bg-1"></div>
+    <div class="glow-bg-2"></div>
+
+    <!-- Sticky Navigation Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">&lt;/&gt;</div>
+                <div class="logo-text">Reem<span> Dev</span></div>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#testimonials">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeToggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div>
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    <span>Junior Software Developer</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <br>
+                    <span class="highlight">Reem Mansur</span>
+                </h1>
+                <p class="hero-desc">
+                    Dedicated Trainee Software Developer specializing in full-stack web application development, database management, and modern user interfaces.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Explore My Work</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="My Cv.pdf" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i>Download CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <span>Follow Me:</span>
+                    <a href="https://github.com/Reem-Mansur13" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/reem-mansur-5224b7428" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/reem_mustary" target="_blank" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="avatar-box">
+                <div class="glass-card" style="padding: 20px;">
+                    <div class="avatar-inner">
+                        <img src="profile.jpg" alt="Reem Mansur profile picture">
+                    </div>
+                </div>
+                <div class="code-tag tag-1">&lt;Developer/&gt;</div>
+                <div class="code-tag tag-2">Html & Css</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">About Me</span>
+                <h2 class="section-title">Get To Know Me!</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="glass-card about-card">
+                    <p class="about-text">
+                        I am a passionate Junior Software Developer and a Higher National Diploma in Information Technology (HNDIT) graduate from Advanced Technological Institute, Sammanthurai. I love building clean, responsive, and user-friendly web applications. With a solid foundation in full-stack web development and database management, I am focused on turning complex ideas into practical digital solutions.
+                    </p>
+                    <div class="info-grid">
+                        <div class="info-item"><i class="fa-solid fa-user"></i> <span><strong>Name:</strong> Reem Mansur</span></div>
+                        <div class="info-item"><i class="fa-solid fa-graduation-cap"></i> <span><strong>Diploma:</strong> HNDIT Graduate</span></div>
+                        <div class="info-item"><i class="fa-solid fa-location-dot"></i> <span><strong>Location:</strong> Ampara, Sri Lanka</span></div>
+                        <div class="info-item"><i class="fa-solid fa-envelope"></i> <span><strong>Role:</strong> Junior Software Developer</span></div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="glass-card stat-card">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="glass-card stat-card">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                    <div class="glass-card stat-card">
+                        <div class="stat-number" data-target="0">0</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="glass-card stat-card">
+                        <div class="stat-number" data-target="7">0</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="background: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Skills</span>
+                <h2 class="section-title">Technologies I Work With</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Tech Badges -->
+            <div class="skills-grid">
+                <div class="glass-card skill-badge"><i class="fa-brands fa-html5" style="color: #e34f26;"></i><span class="skill-name">HTML5</span></div>
+                <div class="glass-card skill-badge"><i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i><span class="skill-name">CSS3</span></div>
+                <div class="glass-card skill-badge"><i class="fa-brands fa-square-js" style="color: #f7df1e;"></i><span class="skill-name">JavaScript</span></div>
+                <div class="glass-card skill-badge"><i class="fa-brands fa-react" style="color: #ec4899;"></i><span class="skill-name">React</span></div>
+                <div class="glass-card skill-badge"><i class="fa-brands fa-node-js" style="color: #339933;"></i><span class="skill-name">Node.js</span></div>
+                <div class="glass-card skill-badge"><i class="fa-solid fa-database" style="color: #f43f5e;"></i><span class="skill-name">MySQL</span></div>
+                <div class="glass-card skill-badge"><i class="fa-brands fa-github" style="color: #f472b6;"></i><span class="skill-name">Git & GitHub</span></div>
+            </div>
+
+            <!-- Skill Progress Bars -->
+            <div class="bars-grid">
+                <div class="bar-item">
+                    <div class="bar-info"><span>Frontend Development (React / HTML / CSS)</span><span>90%</span></div>
+                    <div class="bar-track"><div class="bar-fill" data-width="90%"></div></div>
+                </div>
+                <div class="bar-item">
+                    <div class="bar-info"><span>JavaScript</span><span>80%</span></div>
+                    <div class="bar-track"><div class="bar-fill" data-width="80%"></div></div>
+                </div>
+                <div class="bar-item">
+                    <div class="bar-info"><span>Backend Development (PHP)</span><span>80%</span></div>
+                    <div class="bar-track"><div class="bar-fill" data-width="80%"></div></div>
+                </div>
+                <div class="bar-item">
+                    <div class="bar-info"><span>Database Management (MySQL)</span><span>75%</span></div>
+                    <div class="bar-track"><div class="bar-fill" data-width="75%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Some of My Recent Work</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="system">Systems</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 2 -->
+                <div class="glass-card project-card" data-category="system">
+                    <div class="project-thumb" style="background-image: url('https://placehold.co/600x400/831843/f472b6?text=Hall+Booking');"></div>
+                    <div class="project-body">
+                        <h3 class="project-title">Hall Booking System</h3>
+                        <p class="project-desc">A web application developed to manage venue reservations, user scheduling, and booking administration.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">MySQL</span><span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            <a href="#"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card project-card" data-category="system">
+                    <div class="project-thumb" style="background-image: url('https://placehold.co/600x400/701a75/f43f5e?text=Gym+Management');"></div>
+                    <div class="project-body">
+                        <h3 class="project-title">Gym Management System</h3>
+                        <p class="project-desc">A digital management system to handle member registrations, subscription plans, and trainer scheduling.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            <a href="#"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" style="background: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Education & Achievements</span>
+                <h2 class="section-title">My Journey</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-date">2024 - 2026</div>
+                        <div class="timeline-role">Higher National Diploma IN Information Technology</div>
+                        <div class="timeline-org">Advance Technological Institute Sammanthurai</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-date">Ongoing</div>
+                        <div class="timeline-role">HNDIT Internship Training</div>
+                        <div class="timeline-org">South Eastern University of Sri Lanka</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="glass-card timeline-card">
+                        <div class="timeline-date">2020 - 2022 / 2018 - 2019</div>
+                        <div class="timeline-role">G.C.E Advance Level / G.C.E Ordinary Level</div>
+                        <div class="timeline-org">Mahmud Ladies College Kalmunai (National School)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What People Say</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="glass-card testimonial-card" id="testimonialBox">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text" id="quoteText">"Reem is a dedicated developer with strong analytical skills. Her projects reflect exceptional code quality and visual detail."</p>
+                    <div class="author-name" id="authorName">Prof. Neha Deshmukh</div>
+                    <div class="author-role" id="authorRole">Assistant Professor, MCA Dept</div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="control-btn" id="prevQuote" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="control-btn" id="nextQuote" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="glass-card contact-info">
+                    <h3>Let's build something together!</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem;">
+                        I am open to software development roles, freelance work, and collaborative projects. Feel free to reach out.
+                    </p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Email</div>
+                            <a href="mailto:reemmustary@gmail.com" class="contact-link">reemmustary@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Phone</div>
+                            <a href="tel:+94764011324" class="contact-link">+94 76 401 1324</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--text-muted);">Location</div>
+                            <a href="https://maps.google.com/?q=Ninthavur,Sri+Lanka" target="_blank" class="contact-link">Ninthavur, Sri Lanka</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-form">
+                    <form id="portfolioContactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Project Proposal">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <div class="feedback-box" id="formFeedback">
+                            Message sent successfully! I will get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Reem Dev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggleBtn = document.getElementById('themeToggle');
+            const themeIcon = themeToggleBtn.querySelector('i');
+            
+            themeToggleBtn.addEventListener('click', () => {
+                document.documentElement.classList.toggle('light');
+                if (document.documentElement.classList.contains('light')) {
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                } else {
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                }
+            });
+
+            const mobileToggle = document.getElementById('mobileToggle');
+            const navLinks = document.getElementById('navLinks');
+
+            mobileToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            document.querySelectorAll('#navLinks a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
+            });
+
+            const statNumbers = document.querySelectorAll('.stat-number');
+            let statsAnimated = false;
+
+            const runStats = () => {
+                statNumbers.forEach(num => {
+                    const target = +num.getAttribute('data-target');
+                    let current = 0;
+                    const step = Math.ceil(target / 40);
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            num.innerText = target + '+';
+                            clearInterval(timer);
+                        } else {
+                            num.innerText = current;
+                        }
+                    }, 30);
+                });
+            };
+
+            const barFills = document.querySelectorAll('.bar-fill');
+            const fillSkillBars = () => {
+                barFills.forEach(bar => {
+                    const width = bar.getAttribute('data-width');
+                    bar.style.width = width;
+                });
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (entry.target.id === 'about' && !statsAnimated) {
+                            runStats();
+                            statsAnimated = true;
+                        }
+                        if (entry.target.id === 'skills') {
+                            fillSkillBars();
+                        }
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            observer.observe(document.getElementById('about'));
+            observer.observe(document.getElementById('skills'));
+
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    const filter = btn.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            const testimonials = [
+                {
+                    quote: "Reem is a dedicated developer with strong analytical skills. Her projects reflect exceptional code quality and visual detail.",
+                    author: "Prof. Neha Deshmukh",
+                    role: "Assistant Professor, MCA Dept"
+                },
+                {
+                    quote: "Great team player with excellent problem-solving instincts. She builds web apps quickly with high attention to user experience.",
+                    author: "Rohit Sharma",
+                    role: "Tech Lead, TechThrive Solutions"
+                }
+            ];
+            let currentTestimonialIndex = 0;
+
+            const quoteText = document.getElementById('quoteText');
+            const authorName = document.getElementById('authorName');
+            const authorRole = document.getElementById('authorRole');
+
+            const showTestimonial = (index) => {
+                const item = testimonials[index];
+                quoteText.innerText = `"${item.quote}"`;
+                authorName.innerText = item.author;
+                authorRole.innerText = item.role;
+            };
+
+            document.getElementById('nextQuote').addEventListener('click', () => {
+                currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+                showTestimonial(currentTestimonialIndex);
+            });
+
+            document.getElementById('prevQuote').addEventListener('click', () => {
+                currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
+                showTestimonial(currentTestimonialIndex);
+            });
+
+            const contactForm = document.getElementById('portfolioContactForm');
+            const feedbackBox = document.getElementById('formFeedback');
+
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                feedbackBox.style.display = 'block';
+                contactForm.reset();
+
+                setTimeout(() => {
+                    feedbackBox.style.display = 'none';
+                }, 4000);
+            });
+        });
+    </script>
+</body>
+</html>
